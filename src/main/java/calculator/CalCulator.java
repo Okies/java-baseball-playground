@@ -43,7 +43,7 @@ public class CalCulator {
     }
 
     public boolean valid(String expr) {
-        String pattern = "^\\d ([\\+|\\-|\\*|/|] \\d)+$";
+        String pattern = "^\\d( [\\+|\\-|\\*|/|] \\d)+$";
 
         return Pattern.matches(pattern, expr);
     }
