@@ -4,16 +4,12 @@ import java.util.Iterator;
 
 public class CalCulator {
 
-    private final ExpressionParser expressionParser;
+    private final ExpressionParser expressionParser = new ExpressionParser();
     private Operator operator;
-
-    public CalCulator() {
-        this.expressionParser = new ExpressionParser();
-    }
 
     public double calculate(String expr) {
 
-        Iterator<String> iterator = expressionParser.parseExpr(expr);
+        Iterator<String> iterator = expressionParser.parseExpr(expr).getIterator();
 
         double result = Double.parseDouble(iterator.next());
 
