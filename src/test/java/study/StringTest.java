@@ -38,4 +38,10 @@ public class StringTest {
             char c = "abc".charAt(5);
         }).isInstanceOf(IndexOutOfBoundsException.class);
     }
+
+    @Test
+    public void stringBuilder() {
+        StringBuilder sb = new StringBuilder("aa");
+        System.out.println(sb.toString());
+    }
 }
