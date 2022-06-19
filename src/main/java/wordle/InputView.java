@@ -16,8 +16,4 @@ public class InputView {
     public static String getWordle() {
         return scanner.next();
     }
-
-    private int getFlag() {
-        return nextInt();
-    }
 }
