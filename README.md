@@ -52,7 +52,7 @@ ex) git checkout -b apply-feedback
 ## TODO LIST
 ### 게임 시작
 - [ ] 3자리 숫자 생성
-  - [ ] 1 ~ 9 의 숫자인가 ?
+  - [x] 1 ~ 9 의 숫자인가 ?
   - [ ] 중복되지 않는가 ?
   - [ ] 3자리인가 ?
 
